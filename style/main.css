@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: : 'Source Code Pro', sans-serif ;
+}
+/* UTILITIES */
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.clearfix {
+  content: '';
+  display: table;
+  clear: both;
+}
+.float-left {
+  float: left;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+/* PARTE SUPERIORE HEADER */
+.header-one {
+  background: #f5f8fa;
+  height: 80px;
+  border-bottom: 1px solid gray;
+}
+.navbar-sx li a {
+  border-right: 1px solid black;
+}
+.navbar-dx {
+  text-align: right;
+}
+.navbar-dx ul li ,
+.navbar-sx ul li  {
+  display: inline-block;
+  list-style: none;
+  line-height: 80px;
+}
+.navbar-dx ul li a {
+  text-decoration: none;
+  color: red;
+  padding: 0 20px;
+}
+.navbar-sx ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 0 20px;
+}
+/* BUTTON */
+.btn {
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid #ff7a59;
+  line-height: 40px;
+  background: white;
+}
+.btn-orange {
+  background: #ff7a59;
+}
+.navbar-dx .btn {
+  color: #ff7a59;
+}
+.navbar-dx .btn-orange {
+  color: white;
+}
+/* SECONDA PARTE HEADER */
+.header-two {
+  background: white;
+  height: 80px;
+  border-bottom: 1px solid gray;
+}
+
+.main-navbar ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.main-navbar ul li {
+  display: inline-block;
+}
+.main-navbar ul li a {
+  text-decoration: none;
+}
