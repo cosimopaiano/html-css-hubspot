@@ -27,8 +27,28 @@ body {
 }
 
 .w-33 {
-  width: calc(100 / 3)
+  width: calc(100 / 3);
 }
+
+/* ELEMENTI DI DEBUG DA RIMUOVERE */
+.box {
+  width: 100%;
+  height: 100px;
+  background: #E89089;
+}
+
+.box2 {
+  width: 100%;
+  height: 100px;
+  background: #8EE88B;
+}
+
+.box3 {
+  width: 100%;
+  height: 100px;
+  background: #F9F3A1;
+}
+/* FINE DEBUG */
 
 /* HEADER ONE */
 .header-one {
@@ -183,25 +203,6 @@ body {
   background-color: #afebe4;
   border-top: 3px solid grey;
   border-bottom: 3px solid grey;
-}
-
-/* ELEMENTI DI DEBUG DA RIMUOVERE */
-.box {
-  width: 100%;
-  height: 100px;
-  background: #E89089;
-}
-
-.box2 {
-  width: 100%;
-  height: 100px;
-  background: #8EE88B;
-}
-
-.box3 {
-  width: 100%;
-  height: 100px;
-  background: #F9F3A1;
 }
 
 /* INFO */
