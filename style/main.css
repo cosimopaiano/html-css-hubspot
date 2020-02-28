@@ -5,10 +5,11 @@
 }
 body {
   font-family: : 'Source Code Pro', sans-serif ;
+  background-color: white;
 }
 /* UTILITIES */
 .container {
-  width: 70%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -25,56 +26,89 @@ body {
   width: 50%;
 }
 
-/* PARTE SUPERIORE HEADER */
+.w-33 {
+  width: calc(100 / 3)
+}
+
+/* HEADER ONE */
 .header-one {
   background: #f5f8fa;
-  height: 80px;
-  border-bottom: 1px solid gray;
+  height: 70px;
+  border-bottom: 1px solid #cbd6e2;
 }
 .navbar-sx li a {
-  border-right: 1px solid black;
+  border-right: 1px solid #cbd6e2;
 }
+
 .navbar-dx {
   text-align: right;
 }
-.navbar-dx ul li ,
-.navbar-sx ul li  {
+.navbar-dx ul li {
   display: inline-block;
   list-style: none;
   line-height: 80px;
+  padding: 0 10px;
+  color: #6b7a89;
 }
+
+.navbar-sx ul li {
+  display: inline-block;
+  list-style: none;
+  line-height: 80px;
+  padding: 0 10px;
+  color: #6b7a89;
+}
+
 .navbar-dx ul li a {
   text-decoration: none;
-  color: red;
+  color:#6b7a89;
   padding: 0 20px;
 }
 .navbar-sx ul li a {
   text-decoration: none;
-  color: black;
+  color: #6b7a89;
   padding: 0 20px;
 }
+
+/* HEADR 2 */
+.main-navbar a {
+  padding-left: 11px;
+  color: #33475b;
+  font-size: 17px;
+  line-height:70px;
+}
+
 /* BUTTON */
 .btn {
   display: inline-block;
   border-radius: 5px;
   border: 1px solid #ff7a59;
   line-height: 40px;
-  background: white;
+  background: #ffffff;
 }
 .btn-orange {
   background: #ff7a59;
+}
+
+.btn-jumbo {
+  display: inline-block;
+  background: #ff7a59;
+  padding: 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
 }
 .navbar-dx .btn {
   color: #ff7a59;
 }
 .navbar-dx .btn-orange {
-  color: white;
+  color: #ffffff;
 }
-/* SECONDA PARTE HEADER */
+/*HEADER TWO */
 .header-two {
-  background: white;
+  background: #ffffff;
   height: 80px;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid #f2e7e5;
 }
 
 .main-navbar ul{
@@ -88,4 +122,97 @@ body {
 }
 .main-navbar ul li a {
   text-decoration: none;
+}
+
+.main-navbar {
+ text-align: right;
+}
+
+.fa-caret {
+  display: inline-block;
+  color: #0091ae;
+  margin-bottom: 10px;
+}
+
+.logo {
+  margin-top: 20px;
+}
+
+/* JUMBUTRON */
+.jumbotron {
+  width: 100%;
+  height: 675px;
+  padding-top: 80px;
+  background-image: url('../img/jumbotron.png');
+  background-repeat: no-repeat;
+  background-position-x: 54%;
+  background-position-y: 0%;
+}
+
+.cont {
+  width: 40%;
+  margin-top: 50px;
+  }
+
+.cont h2 {
+  width: 400px;
+  margin-bottom: 50px;
+  color: #33475b;
+  font-size: 55px;
+}
+
+.cont p {
+  width: 604px;
+  margin-bottom: 14px;
+  color: #33475b;
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.cont h5 {
+  margin-top: 17px;
+  margin-right: 221px;
+  color: #33475b;
+  font-size: 11px;
+  line-height: 17px;
+}
+
+/* BOTTOM HEADER */
+.botton-header {
+  height: 80px;
+  background-color: #afebe4;
+  border-top: 3px solid grey;
+  border-bottom: 3px solid grey;
+}
+
+/* ELEMENTI DI DEBUG DA RIMUOVERE */
+.box {
+  width: 100%;
+  height: 100px;
+  background: red;
+}
+
+.box2 {
+  width: 100%;
+  height: 300px;
+  background: green;
+}
+
+.box3 {
+  width: 100%;
+  height: 100px;
+  background: yellow;
+}
+
+/* INFO */
+#info {
+  background-color: gray;
+}
+
+.info-box-full .col-sx {
+  width: 30%;
+}
+
+.info-box-full .col-dx {
+  width: 70%;
 }
